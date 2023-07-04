@@ -1,12 +1,12 @@
 const user = {
   name: "Sumit kumar",
-  role: "Full Stack Developer & Designer",
+  role: "All around nerd!",
   bio: "I am a full-stack developer and designer based in Bangalore. I have experience in creating and developing end to end product from from designing to deployments. I have previously launched a few startups, though they did not meet my expectations. ",
   links: {
     github: "https://github.com/sumitkumar9988/",
     dribble: "",
     behance: "",
-    twitter: "https://twitter.com/Sumit_r9988",
+    twitter: "https://twitter.com/ranga_lab",
     linkedin: "https://www.linkedin.com/in/sumit9988/"
   },
   email: "ranga.sumit1999@gmail.com",
@@ -106,13 +106,20 @@ const user = {
   ],
   projects: [
     {
-      name: "Figma to HTML/CSS Code",
+      name: "Rove - AI browser Automation",
+      description:
+        "I am building AI browser automation tool to automate everything in browser from data entry to finding leads and all the boring task",
+      DemoUrl: "http://getrove.tech/",
+      repoUrl: "",
+      logo: "https://res.cloudinary.com/sumit9988/image/upload/v1688449412/Popup-04_l7khts.png"
+    },
+    {
+      name: "DevBeans - Design to Code",
       description:
         "Figma to HTML/CSS extension simplifies web design by converting Figma designs to clean HTML/CSS code. Save time and streamline your workflow with easy customization options. Perfect for professionals and beginners alike.",
-      DemoUrl:
-        "https://www.figma.com/community/plugin/1197376201235364148/Figma-to-HTML%2FCSS-Code?comment=1198563655608462208",
+      DemoUrl: "https://devbeans.tech/",
       repoUrl: "",
-      logo: "https://res.cloudinary.com/sumit9988/image/upload/v1674411128/Cover_1_oqqf2p.png"
+      logo: "https://res.cloudinary.com/sumit9988/image/upload/v1688449501/DevBeans-Demo_plx8kw.png"
     },
     {
       name: "Pancake.page",
@@ -141,10 +148,17 @@ const user = {
   ],
   experience: [
     {
+      title: "Founder",
+      organization: "DevBeans",
+      description: "Help frontend developer to write UI faster!",
+      startDate: "2023",
+      endDate: "2023"
+    },
+    {
       title: "Full Stack Developer & Designer",
       organization: "Freelancer",
       description:
-        "I have a broad range of experience building end-to-end products for a variety of companies including fintech, social commerce, SaaS. Some major company i work with :- Livestop.tv, finstack, Yespoho, Global Trade observer, reasoned.venture",
+        "I have a broad range of experience building end-to-end products for a variety of companies including fintech, social commerce, SaaS.",
       startDate: "2021",
       endDate: "Present"
     },
